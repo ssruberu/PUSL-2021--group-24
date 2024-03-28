@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0; /* Light gray background */
+  overflow-x: hidden;
+}
+
+
+
+
+
+/* Registration Form */
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  margin-top: 10rem;
+  padding-top: 5rem;
+  
+}
+
+.form-container form {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 50vw;
+  position: relative;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.form-container h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333; /* Dark gray color */
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-container form img {
+  display: block;
+  margin: 0 auto; /* Center the image */
+  width: 100px; /* Adjust image width */
+  margin-bottom: 20px; /* Spacing below the image */
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 10px 15px;
+  margin: 8px 0;
+  font-size: 17px;
+}
+
+.form-container form sup {
+  color: red;
+}
+
+.form-container form select option {
+  background: #fff;
+}
+
+.form-container form .form-btn {
+  background: #aa4ff3; /* Purple button color */
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+  background: #9550d3; /* Darker purple on hover */
+}
+
+.form-container form p {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #555; /* Dark gray color */
+}
+
+.form-container form p a {
+  color: #e382c5;
+  text-decoration: none;
+}
+
